@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(245, 237, 237);
+}
+
+html, body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+    height: 100%;
+}
+
+main, footer {
+    padding: 1px 15px 5px 15px;
+}
+
+.nav-div {
+    float: right;
+    margin: auto;
+   
+}
+
+a {
+    padding: 1px 80px 1px 0px;
+}
+
+.heading-one {
+    text-align: center;
+    padding: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+#one {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#two {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+#image {
+    width: 25%;
+    padding-top: 40px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#features {
+    text-align: center;
+}
+
+img {
+    width: 50px;
+    padding-right: 20px;;
+
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+  }
+  
+  .container-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+  }
+
+.containers {
+width: 530px;
+box-sizing: border;
+border: 2px solid black;
+padding: 10px 10px 10px 150px;
+margin: 12px;
+font-weight: bolder;
+  }
+
+  button {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+  }
+
+  footer {
+    padding-top: 50px;
+    float: right;
+  }
+
+  @media only screen and (max-width: 420px) {
+    html {
+      font-size: 4.5rem;
+    }
+  }
+  
